@@ -5,6 +5,8 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import CadastroUser from './components/CadastroUser';
+import CadastroProduto from './components/CadastroProduto';
+import Venda from './components/Venda';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -14,6 +16,8 @@ root.render(
       <Routes>
         <Route path='/' element={<App/>}/>
         <Route path='/cadastro-usuario' element={<CadastroUser/>}/>
+        <Route path='/cadastro-produto' element={<CadastroProduto/>}/>
+        <Route path='/venda' element={<Venda/>}/>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

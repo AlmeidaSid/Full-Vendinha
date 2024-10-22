@@ -9,7 +9,10 @@ import java.util.List;
 public interface ProdutoService {
     // ProdutoResponseDto save(ProdutoRequestDto produtoRequestDto);
     ProdutoResponseDto update(ProdutoRequestDto produtoRequestDto, Long id);
+    ProdutoResponseDto save(ProdutoRequestDto produtoRequestDto);
     List<Produto> findAll();
     Produto findById(Long id);
     void deletar(Long id);
+
+
 }

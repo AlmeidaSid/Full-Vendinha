@@ -8,7 +8,6 @@ function App() {
     <div>
     
     
-    <CadastroUser/>
     
     <h2 id='title'>Nubank tem falha no app,<br/> e clientes relatam dificuldades nas redes sociais</h2>
 
